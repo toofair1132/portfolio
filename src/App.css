@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+ 
+  .header-section {
+    background: linear-gradient(to bottom, #000000, #ff000047);
+    color: white;
+   position: fixed;
+   width: 1440px;
+   position: fixed;
+  top: 0;
+  }
+
+  .logo-image {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    display: block;
+    margin-left: 0; 
+  }
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+  transition: color 0.3s ease, background-color 0.3s ease; 
+}
+
+.nav-link:hover {
+  color: #ff0000; 
+ 
+}
+
+.header-section h1 {
+  text-align: center;
+height: 0px;
+font-size: 2.5em;
+}
+
+.header-section h2 {
+  text-align: right;
+height: 0px;
+width: 0px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+  text-align: right;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+#home {
+  background-color: transparent;
+}
+
+#about{
+  background: linear-gradient(
+    to right, 
+    rgba(255, 0, 0, 0.304), 
+    rgba(3, 3, 3, 0.359)
+  );
+  border: 1px solid #020202;
+}
+#contact{
+  background: linear-gradient(
+    to right, 
+    rgba(255, 0, 0, 0.304), 
+    rgba(3, 3, 3, 0.359)
+  );
+  border: 1px solid #020202;
+}
+ #projects, #contact {
+  background-color: transparent;
+  border: 1px solid #ddd;
+}
+/* Global styles */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../public/thunder.webp') no-repeat center center fixed; /* Correct path */
+  background-size: cover;
+
+}
+
+/* Container to ensure content doesn't stretch too wide */
